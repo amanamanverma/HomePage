@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">FINAL PROJECT</string>
+    <string name="Cocktail">Cocktail_database</string>
+    <string name="cocktail_name">Cocktail_name</string>
+    <string name="author">Muskanpreet kaur</string>
+    <string name="search">Search</string>
+    <string name="alert_yuvraj">Welcome to Yuvraj\'s page</string>
+    <string name="alert_agam">Welcome to Agam\'s page</string>
+    <string name="alert_muskan">Welcome to Muskan\'s page</string>
+    <string name="alert_user">Do you really want to create this username?</string>
+    <string name="alert_yes">Yes</string>
+    <string name="alert_empty">Username cannot be empty</string>
+    <string name="textView3">Owlbot Dictionary</string>
+    <string name="create">CREATE</string>
+    <string name="alert_guide">Quick Guide</string>
+    <string name="alert_i">"Greetings! We're glad to have you here. Here's a simple guide to get started:\n"
+                    "\n"
+                    "1. Simply type in your preferred username in the username input field.\n"
+                    "2. Click on the \"Create\" button to finalize your username.\n"
+                    "3. After creating your username, you'll have access to all three buttons, each with unique features.\n"
+                    "4. To look up a new word, click on the \"Agam\" button\n"
+                    "5. For the Word of the Day quiz, click on the \"Yuvraj\" button.\n"
+                    "6. To view your saved words, click on the \"Muskan\" button."
+                    "\n""That's all there is to it! Enjoy exploring the different features of our page. If you have any inquiries or concerns, please don't hesitate to contact us for assistance."</string>
+    <string name="username">Enter your username</string>
+
+
+    <string name="type_word">Type your word here</string>
+    <string name="find">Find meaning</string>
+    <string name="owlbot">OwlBot Dictionary</string>
+    <string name="searchB">Search</string>
+    <string name="alert">"Greetings! We're glad to have you here. Here's a simple guide to get started:\n"
+                    "\n"
+                    "1. Simply type in your preferred username in the username input field.\n"
+                    "2. Click on the \"Create\" button to finalize your username.\n"
+                    "3. After creating your username, you'll have access to all three buttons, each with unique features.\n"
+                    "4. To go back to the Home Page \"Aman\" button\n"
+                    "5. For the Word of the Day quiz, click on the \"Yuvraj\" button.\n"
+                    "6. To view your saved words, click on the \"Muskan\" button."
+                    "\n" "That's all there is to it! Enjoy exploring the different features of our page. If you have any inquiries or concerns, please don't hesitate to contact us for assistance."</string>
+    <string name="guide">Quick Guide</string>
+    <string name="ok">OK</string>
+    <string name="Muskan">"Welcome to Muskan's page</string>
+    <string name="Aman">"Welcome to Aman's page</string>
+    <string name="Yuvraj">"Welcome to Yuvraj's page</string>
+    <string name="empty">Word cannot be empty</string>
+    <string name="Display">Meaning is displayed</string>
+   <string name="five">Top Searched word of the DAY</string>
+</resources>

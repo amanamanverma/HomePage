@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FINAL PROJECT</string>
+    <string name="Cocktail">Cocktail_database</string>
+
+    <string name="cocktail_name">Nom du cocktail</string>
+
+    <string name="author">Muskanpreet kaur</string>
+    <string name="type_word">Tapez votre mot ici.</string>
+    <string name="find">Trouver du sens</string>
+    <string name="owlbot">Dictionnaire Owlbot</string>
+    <string name="searchB">Recherche</string>
+    <string name="alert">"Salutations ! Nous sommes ravis de vous accueillir. Voici un guide simple pour commencer :\n"
+                    "\n"
+                    "1. Tapez simplement votre nom d'utilisateur préféré dans le champ de saisie du nom d'utilisateur.\n"
+                    "2. Cliquez sur le bouton \"Créer\" pour finaliser votre nom d'utilisateur.\n" +
+                    "3. Après avoir créé votre nom d'utilisateur, vous aurez accès aux trois boutons, chacun avec des fonctionnalités uniques.\n"
+                    "4. Pour revenir à la page d'accueil \"Aman\" bouton\n" +
+                    "5. Pour le quiz Mot du jour, cliquez sur le bouton \"Yuvraj\".\n"
+                    "6. Pour afficher vos mots enregistrés, cliquez sur le bouton \"Muskan\"."
+                    "\n""C'est tout ! Amusez-vous à explorer les différentes fonctionnalités de notre page. Si vous avez des questions ou des préoccupations, n'hésitez pas à nous contacter pour obtenir de l'aide."</string>
+    <string name="guide">Guide rapide</string>
+    <string name="ok">Oui</string>
+    <string name="Muskan">Bienvenue sur la page de Muskan</string>
+    <string name="Aman">Bienvenue sur la page de Aman</string>
+    <string name="Yuvraj">Bienvenue sur la page de Yuvraj</string>
+    <string name="empty">Le mot ne peut pas être vide</string>
+    <string name="Display">La signification est affichée</string>
+
+    <string name="search">Recherche</string>
+    <string name="alert_yuvraj">Bienvenue sur la page de Yuvraj</string>
+    <string name="alert_agam">Bienvenue sur la page de Agam</string>
+    <string name="alert_muskan">Bienvenue sur la page de Muskan</string>
+    <string name="alert_user">Voulez-vous vraiment créer ce nom de utilisateur?</string>
+    <string name="alert_yes">Oui</string>
+    <string name="alert_empty">Le nom de utilisateur ne peut pas être vide</string>
+    <string name="textView3">Dictionnaire Owlbot</string>
+    <string name="create">CRÉER</string>
+    <string name="alert_guide">Guide Rapide</string>
+    <string name="alert_i">"Salutations! Nous sommes ravis de vous accueillir. Voici un guide simple pour commencer:\n"
+                    "\n"
+                    "1. Tapez simplement votre nom d'utilisateur préféré dans le champ de saisie du nom d'utilisateur.\n"
+                    "2. Cliquez sur le bouton \"Créer\" pour finaliser votre nom d'utilisateur.\n"
+                    "3. Après avoir créé votre nom d'utilisateur, vous aurez accès aux trois boutons, chacun avec des fonctionnalités uniques.\n"
+                    "4. Pour rechercher un nouveau mot, cliquez sur le bouton \"Agam\"\n"
+                    "5. Pour le quiz Mot du jour, cliquez sur le bouton \"Yuvraj\".\n"
+                    "6. Pour afficher vos mots enregistrés, cliquez sur le bouton \"Muskan\"."
+                    "\n""C'est tout! Amusez-vous à explorer les différentes fonctionnalités de notre page. Si vous avez des questions ou des préoccupations, n'hésitez pas à nous contacter pour obtenir de l'aide."</string>
+    <string name="username">Entrez votre nom de utilisateur</string>
+    <string name="five">Top recherché du jour</string>
+</resources>
