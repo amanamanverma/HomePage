@@ -56,6 +56,7 @@ public class HomePage extends AppCompatActivity {
     private ImageView search;
     private ImageView save;
     private Button button;
+    private Button next;
     private EditText usernameField;
     private SharedPreferences sharedPreferences;
     private TextView active_user;
@@ -132,23 +133,32 @@ public class HomePage extends AppCompatActivity {
         String savedUsername = sharedPreferences.getString(USERNAME_KEY, "");
         usernameField.setText(savedUsername);
         // Set up click listeners
+// Assuming you have a TextView called 'word' in your layout file
 
-        // Get the saved username from SharedPreferences and display it in the username field
-        String[] words = {"cat", "dog", "house", "apple", "tree", "book", "pen", "computer", "phone", "chair",
-                "table", "car", "banana", "cookie", "water", "fire", "sky", "sun", "moon", "star",
-                "earth", "ocean", "beach", "mountain", "river", "wind", "rain", "snow", "ice", "grass",
-                "flower", "bird", "fish", "butterfly", "bee", "ant", "spider", "snake", "lion", "tiger",
-                "elephant", "monkey", "giraffe", "zebra", "cow", "sheep", "horse", "pig", "chicken", "duck",
-                "fish", "whale", "dolphin", "shark", "octopus", "crab", "lobster", "turtle", "frog", "lizard",
-                "piano", "guitar", "violin", "drum", "trumpet", "flute", "saxophone", "accordion", "harp", "bass",
-                "rock", "pop", "jazz", "blues", "classical", "country", "rap", "hip-hop", "reggae", "folk",
-                "math", "science", "history", "geography", "literature", "music", "art", "sports", "food", "travel"};
-        Random random = new Random();
-        for (int i = 0; i < 100; i++) {
-            String randomWord = words[random.nextInt(words.length)];
-            word.setText(randomWord);
-        }
+// Get a reference to the button
+        Button changeButton = findViewById(R.id.next);
 
+// Set a click listener on the button
+        changeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Generate a new random word
+                String[] words = {"cat", "dog", "house", "apple", "tree", "book", "pen", "computer", "phone", "chair",
+                        "table", "car", "banana", "cookie", "water", "fire", "sky", "sun", "moon", "star",
+                        "earth", "ocean", "beach", "mountain", "river", "wind", "rain", "snow", "ice", "grass",
+                        "flower", "bird", "fish", "butterfly", "bee", "ant", "spider", "snake", "lion", "tiger",
+                        "elephant", "monkey", "giraffe", "zebra", "cow", "sheep", "horse", "pig", "chicken", "duck",
+                        "fish", "whale", "dolphin", "shark", "octopus", "crab", "lobster", "turtle", "frog", "lizard",
+                        "piano", "guitar", "violin", "drum", "trumpet", "flute", "saxophone", "accordion", "harp", "bass",
+                        "rock", "pop", "jazz", "blues", "classical", "country", "rap", "hip-hop", "reggae", "folk",
+                        "math", "science", "history", "geography", "literature", "music", "art", "sports", "food", "travel"};
+                Random random = new Random();
+                String randomWord = words[random.nextInt(words.length)];
+
+                // Set the random word in the TextView
+                word.setText(randomWord);
+            }
+        });
 
 
         image.setOnClickListener(new View.OnClickListener() {

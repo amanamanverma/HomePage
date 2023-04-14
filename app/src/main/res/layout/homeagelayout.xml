@@ -70,8 +70,8 @@
 
     <ImageView
         android:id="@+id/agam"
-        android:layout_width="99dp"
-        android:layout_height="77dp"
+        android:layout_width="109dp"
+        android:layout_height="85dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -194,6 +194,7 @@
         android:id="@+id/textView2"
         android:layout_width="159dp"
         android:layout_height="52dp"
+        android:text="fire"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -201,5 +202,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.773" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="72dp"
+        android:layout_height="36dp"
+        android:text="NEXT"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.743" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
