@@ -1,5 +1,5 @@
 /**
- * This package contains the AmanActivity class for the final project of CST2335.
+ * This package contains the HomePage class for the final project of CST2335.
  */
 package com.cst2335.homepage;
 
@@ -13,14 +13,12 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -61,6 +59,8 @@ public class HomePage extends AppCompatActivity {
     private SharedPreferences sharedPreferences;
     private TextView active_user;
     private TextView word;
+
+
     private static final String USERNAME_KEY = "username";
     /**
      * Shows an alert dialog with instructions when the user clicks on the info icon.
@@ -122,12 +122,13 @@ public class HomePage extends AppCompatActivity {
 
         // Initialize instance variables
         image = findViewById(R.id.img);
-        day = findViewById(R.id.yuvraj);
-        search = findViewById(R.id.agam);
-        save = findViewById(R.id.muskan);
+        day = findViewById(R.id.yuvra);
+        search = findViewById(R.id.aga);
+        save = findViewById(R.id.muska);
         button = findViewById(R.id.create);
         usernameField = findViewById(R.id.username);
         word = findViewById(R.id.textView2);
+
 
         sharedPreferences = getSharedPreferences("MyPreferences", MODE_PRIVATE);
         String savedUsername = sharedPreferences.getString(USERNAME_KEY, "");
@@ -161,6 +162,7 @@ public class HomePage extends AppCompatActivity {
         });
 
 
+
         image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -172,6 +174,9 @@ public class HomePage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), R.string.alert_yuvraj, Toast.LENGTH_SHORT).show();
+           //     Intent gotoSearch = new Intent(homepage.this, WordOfTheDayActivity.class);
+          //      startActivity(gotoSearch);
+
             }
         });
 
@@ -179,6 +184,8 @@ public class HomePage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), R.string.alert_agam, Toast.LENGTH_SHORT).show();
+             //   Intent gotoSearch = new Intent(homepage.this, searchword.class);
+              //  startActivity(gotoSearch);
             }
         });
 
@@ -186,8 +193,11 @@ public class HomePage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), R.string.alert_muskan, Toast.LENGTH_SHORT).show();
+                Intent gotoSearch = new Intent(HomePage.this, MainActivity.class);
+                startActivity(gotoSearch);
             }
         });
+
 
 
 
@@ -226,11 +236,10 @@ public class HomePage extends AppCompatActivity {
                 }
 
             }
-        });
+
+});
     }
 
 
 
 }
-
-

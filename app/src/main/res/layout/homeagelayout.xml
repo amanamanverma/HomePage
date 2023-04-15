@@ -57,7 +57,7 @@
         app:layout_constraintVertical_bias="0.534" />
 
     <ImageView
-        android:id="@+id/muskan"
+        android:id="@+id/muska"
         android:layout_width="80dp"
         android:layout_height="68dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -69,7 +69,7 @@
         app:srcCompat="@drawable/save" />
 
     <ImageView
-        android:id="@+id/agam"
+        android:id="@+id/aga"
         android:layout_width="109dp"
         android:layout_height="85dp"
 
@@ -81,7 +81,7 @@
         app:srcCompat="@drawable/search" />
 
     <ImageView
-        android:id="@+id/yuvraj"
+        android:id="@+id/yuvra"
         android:layout_width="95dp"
         android:layout_height="72dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -140,7 +140,7 @@
             app:rippleColor="#0B16EA" />
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/PAGE"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:background="#0000FF"
@@ -152,7 +152,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/DAY"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:background="#0000FF"
@@ -164,7 +164,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/HOM"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:background="#0000FF"
